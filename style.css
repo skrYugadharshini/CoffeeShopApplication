@@ -86,12 +86,12 @@ body{
 .header .search-form{
     position: absolute;
     top:115%; right: 7%;
-    background: #fff;
+    background:#fff;
     width: 50rem;
     height: 5rem;
     display: flex;
     align-items: center;
-    transform: scale(0);
+    transform: scaleY(0);
     transform-origin: top;
 }
 
@@ -149,7 +149,7 @@ body{
     height: 10rem;
 
 }
-.header .cart-item-container .cart-item .content h3 {
+.header .cart-item-container .cart-item .content h3{
     font-size: 2rem;
     color: var(--black);
     padding-bottom: 5rem;
@@ -174,14 +174,8 @@ body{
 
 }
 
-.header{
-    background: var(--bg);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 7%;
-    border-bottom: var(--border);
-
+.header .cart-item-container .btn{
+    width: 100;
 }
 
 
@@ -213,12 +207,5 @@ body{
 
 
 
-@media (max-width:991px){
-    html{
-        font-size: 55%;
-    }
 
-    .header{
-        
-    }
-}
+
