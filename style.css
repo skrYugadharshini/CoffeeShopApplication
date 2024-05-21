@@ -118,10 +118,10 @@ body{
 .header .cart-item-container{
     position: absolute;
     top: 100%; right: 0;
-    height: calc(100vh -9.5rem);
-    width: 35rem;
+    height: calc(400vh -15.5rem);
+    width: 40rem;
     background: #fff;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
 }
 
 .header .cart-item-container .cart-item{
@@ -132,7 +132,7 @@ body{
     gap: 1rem;
 }
 
-.header .cart-item-container .cart-item.fa-times{
+.header .cart-item-container .cart-item .fa-times{
     position: absolute;
     top:1rem; right:1rem ;
     font-size: 2rem;
@@ -140,7 +140,46 @@ body{
     color:var(--black)
 }
 
-.header .cart-item-container .cart-item.fa-times:hover{
+.header .cart-item-container .cart-item .fa-times:hover{
     color: var(--main-color);
+
+}
+
+.header .cart-item-container .cart-item img{
+    height: 10rem;
+
+}
+.header .cart-item-container .cart-item .content h3 {
+    font-size: 2rem;
+    color: var(--black);
+    padding-bottom: 5rem;
+}
+
+.header .cart-item-container .cart-item .price{
+    font-size: 1.5rem;
+    color: var(--main-color);
+    padding-bottom: .5rem;
+}
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 3rem;
+    font-size:1.9rem ;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+.btn:hover{
+    letter-spacing: .2rem;
+
+}
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
 
 }
