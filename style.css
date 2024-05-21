@@ -123,3 +123,24 @@ body{
     background: #fff;
     padding: 0 1.5rem;
 }
+
+.header .cart-item-container .cart-item{
+    position: relative;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header .cart-item-container .cart-item.fa-times{
+    position: absolute;
+    top:1rem; right:1rem ;
+    font-size: 2rem;
+    cursor: pointer;
+    color:var(--black)
+}
+
+.header .cart-item-container .cart-item.fa-times:hover{
+    color: var(--main-color);
+
+}
