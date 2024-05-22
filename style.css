@@ -19,7 +19,7 @@
     transition: .2s linear;
 }
 
-html{
+.html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 9rem;
@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb{
     background: #fff;
     border-radius: 5rem;
 }
-body{
+.body{
     background: var(--bg);
 }
 .header{
