@@ -27,7 +27,7 @@
 }
 
 html::-webkit-scrollbar{
-    width: .8rem;
+    width: .rem;
 }
 
 html::-webkit-scrollbar-track{
@@ -38,10 +38,10 @@ html::-webkit-scrollbar-thumb{
     background: #fff;
     border-radius: 5rem;
 }
-.body{
+body{
     background: var(--bg);
 }
-.header{
+.div{
     background: var(--bg);
     display: flex;
     align-items: center;
@@ -52,22 +52,22 @@ html::-webkit-scrollbar-thumb{
     top: 0; left: 0; right: 0;
     z-index: 1000;
 }
-.header .logo img{
+.div .logo img{
     height: 8rem;
 }
-.header .navbar a{
+.div .navbar a{
 
     margin: 0 1rem;
     font-size: 2rem;
     color:#fff;
 }
 
-.header .navbar a:hover{
+.div .navbar a:hover{
     color:var(--main-color);
     border-bottom: .1rem solid var(--main-color);
     padding-bottom: .5rem;
 }
-.header .icons div{
+.div .icons div{
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
@@ -75,15 +75,15 @@ html::-webkit-scrollbar-thumb{
    
 }
 
-.header .icons div:hover{
+.div .icons div:hover{
     color:var(--main-color);
 }
 
-#menu-btn{
+ #menu-btn{
     display: none;
 }
 
-.header .search-form{
+.div .search-form{
     position: absolute;
     top:115%; right: 7%;
     background:#fff;
@@ -95,7 +95,7 @@ html::-webkit-scrollbar-thumb{
     transform-origin: top;
 }
 
-.header .search-form input{
+.div .search-form input{
     height: 100%;
     width: 100%;
     font-size: 1.6rem;
@@ -104,27 +104,27 @@ html::-webkit-scrollbar-thumb{
     text-transform: none;
 }
 
-.header .search-form label{
+.div .search-form label{
     cursor: pointer;
     font-size: 2.2rem;
     margin-right: 1.5rem;
     color:var(--black)
 }
-.header .search-form label:hover{
+.div .search-form label:hover{
     color: var(--main-color);
 
 }
 
-.header .cart-item-container{
+.div .cart-item-container{
     position: absolute;
-    top: 100%; right: 0;
+    top: 100%; right: 0/;
     height: calc(400vh -15.5rem);
     width: 40rem;
     background: #fff;
     padding: 0 1rem;
 }
 
-.header .cart-item-container .cart-item{
+.div .cart-item-container .cart-item{
     position: relative;
     margin: 2rem 0;
     display: flex;
@@ -132,7 +132,7 @@ html::-webkit-scrollbar-thumb{
     gap: 1rem;
 }
 
-.header .cart-item-container .cart-item .fa-times{
+.div .cart-item-container .cart-item .fa-times{
     position: absolute;
     top:1rem; right:1rem ;
     font-size: 2rem;
@@ -140,22 +140,22 @@ html::-webkit-scrollbar-thumb{
     color:var(--black)
 }
 
-.header .cart-item-container .cart-item .fa-times:hover{
+.div .cart-item-container .cart-item .fa-times:hover{
     color: var(--main-color);
 
 }
 
-.header .cart-item-container .cart-item img{
+.div .cart-item-container .cart-item img{
     height: 10rem;
 
 }
-.header .cart-item-container .cart-item .content h3{
+.div .cart-item-container .cart-item .content h3{
     font-size: 2rem;
     color: var(--black);
     padding-bottom: 5rem;
 }
 
-.header .cart-item-container .cart-item .price{
+.div .cart-item-container .cart-item .price{
     font-size: 1.5rem;
     color: var(--main-color);
     padding-bottom: .5rem;
@@ -177,6 +177,7 @@ html::-webkit-scrollbar-thumb{
 .header .cart-item-container .btn{
     width: 100;
 }
+ 
 
 
 
@@ -207,5 +208,4 @@ html::-webkit-scrollbar-thumb{
 
 
 
-
-
+ */
