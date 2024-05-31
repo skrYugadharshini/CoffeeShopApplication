@@ -17,3 +17,10 @@ let cartItem = document.querySelector('.cart-item-containers');
 document.querySelector('#cart-btn').onclick = () =>{
     cartItem.classList.toggle('active');
 }
+
+window.onscroll = () =>{
+    avbar.classList.remove('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+    
+}
