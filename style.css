@@ -197,6 +197,20 @@ body{
 
 
 
+@media (max-width:991px){
+    #menu-btn{
+        display: inline-block;
+    }
+.header .navbar{
+    position: absolute;
+    top:100%; right:0;
+    background: #fff;
+    background:30rem ;
+
+}
+
+    position: absolute;
+}
 
 
 
@@ -207,5 +221,4 @@ body{
 
 
 
-
- */
+ 
