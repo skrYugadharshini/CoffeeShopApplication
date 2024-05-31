@@ -13,6 +13,12 @@ searchForm.classList.remove('active');
     cartItem.classList.remove('active');
 
 let cartItem = document.querySelector('.search-form');
+searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
 
 document.querySelector('#search-btn').onclick = () =>{
     searchForm.classList.toggle('active');
@@ -28,6 +34,12 @@ searchForm.classList.remove('active');
 
 document.querySelector('#cart-btn').onclick = () =>{
     cartItem.classList.toggle('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
 }
 
 window.onscroll = () =>{
